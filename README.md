@@ -13,11 +13,24 @@
 - `/add <番剧名称>` 把番剧添加到自动更新列表
 - `/del <番剧名称>` 把番剧移出自动更新列表
     - 这个专案没有检查番剧是否完结的功能，所以请在番剧完结时手动移出自动更新列表
+- `/get` 获取所有标记为未下载的项目
 - `/help` 获取可用命令
 
 ## 演示
 
-## 安装
+- 使用命令添加番剧
+
+![image](https://github.com/ArsFy/mikanani-push-bot/assets/93700457/af566bfe-f860-4429-8982-9d44a8776fb8)
+
+- 主动推送
+
+![image](https://github.com/ArsFy/mikanani-push-bot/assets/93700457/f4057030-259d-407e-abdc-22a88e4074b2)
+
+- 获取所有标记为未下载的项目
+
+![image](https://github.com/ArsFy/mikanani-push-bot/assets/93700457/1d08d713-f1ca-4f6c-b403-17871a62ef3b)
+
+## 部署
 ### 1. 下载
 你可以在 [Releases](https://github.com/ArsFy/mikanani-push-bot/releases) 中下载预设的压缩档，或者使用 Golang 编译二进制可执行档
 
